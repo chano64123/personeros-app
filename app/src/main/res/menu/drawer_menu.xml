@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="@string/user_type_enlace" android:id="@+id/item_enlace">
+        <menu>
+            <item
+                android:id="@+id/nav_results"
+                android:icon="@drawable/ic_result"
+                android:title="@string/option_see_results"/>
+        </menu>
+    </item>
+    <item android:title="@string/user_type_coordinador" android:id="@+id/item_coordinador">
+        <menu>
+            <item
+                android:id="@+id/nav_act"
+                android:icon="@drawable/ic_act"
+                android:title="@string/option_save_act"/>
+            <item
+                android:id="@+id/nav_take_list"
+                android:icon="@drawable/ic_check"
+                android:title="@string/option_take_list"/>
+        </menu>
+    </item>
+    <item android:title="@string/user_type_personero" android:id="@+id/item_personero">
+        <menu>
+            <item
+                android:id="@+id/nav_info_table"
+                android:icon="@drawable/ic_my_table"
+                android:title="@string/option_info_table"/>
+            <item
+                android:id="@+id/nav_mark_list"
+                android:icon="@drawable/ic_check"
+                android:title="@string/option_mark_list"/>
+        </menu>
+    </item>
+    <item android:title="@string/user_session" android:id="@+id/item_session">
+        <menu>
+            <item
+                android:id="@+id/nav_close_session"
+                android:icon="@drawable/ic_close_session"
+                android:title="@string/option_log_out"/>
+        </menu>
+    </item>
+</menu>
